@@ -11,14 +11,14 @@ public class Main {
         StringBuilder sb = new StringBuilder();
 
         int N = Integer.parseInt(br.readLine());
-        int[] result = new int[N];
+        // int[] result = new int[N];
 
         for (int i = 0; i < N; i++) {
             String[] input = br.readLine().split(" ");
             int A = Integer.parseInt(input[0]);
             int B = Integer.parseInt(input[1]);
-            result[i] = A + B;
-            sb.append("Case #" + (i+1) + ": " + result[i]).append("\n");
+            // result[i] = A + B;
+            sb.append("Case #" + (i+1) + ": " + (A + B)).append("\n");
         }
 
         bw.write(sb.toString());
