@@ -19,11 +19,8 @@ public class Main {
 
         int N = Integer.parseInt(br.readLine());
 
-        int sum = 0;
+        int sum = (N*(N + 1)) / 2;
 
-        for (int i = 1; i <= N; i++) {
-            sum += i;
-        }
         System.out.println(sum);
     }
 }
